@@ -207,37 +207,6 @@ for player in rookies {
 
 
 
-// print out the sorted lists of players for each team (for testing purposes only, removed before submission)
-
-print("****** Team Dragons ******")
-for player in dragons {
-    print(player)
-}
-
-print("****** Team Sharks ******")
-for player in sharks {
-    print(player)
-}
-
-print("****** Team Raptors ******")
-for player in raptors {
-    print(player)
-}
-
-print("****************************************************************************************")
-
-
-
-
-
-
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////                       Bonus: Extra Credit                         //////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 
@@ -275,9 +244,9 @@ if isAverageHeightWithinRange(firstAverageHeight: averageHeight(sharks),
                                secondAverageHeight: averageHeight(dragons), range: 1.5) &&
     isAverageHeightWithinRange(firstAverageHeight: averageHeight(raptors),
                                secondAverageHeight: averageHeight(dragons), range: 1.5) {
-    print("Yes, average heights of the teams are within 1.5 inches of each other.")
+    print("Yes, average heights of the teams are within 1.5 inches of each other.\n\n")
 } else {
-    print("No, average heights is out of range")
+    print("No, average heights is out of range.\n\n")
 }
 
 
